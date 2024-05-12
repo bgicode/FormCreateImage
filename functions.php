@@ -1,6 +1,6 @@
 <?php
 
-function createStringImg($fontSize, $string, $font)
+function createStringImg(int $fontSize, string $string, string $font): void
 {
     $padding = 20;
     $lineHeight = $fontSize * 0.2;
